@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="Concordia v0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:text="Adicionar Serviços"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="414dp"
+        android:layout_height="570dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="134dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="134dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="134dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="416dp"
+        android:layout_height="88dp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <SearchView
+        android:layout_width="409dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="134dp"
+        android:layout_height="159dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="92dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="176dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
+        android:layout_height="66dp"
+        android:text="Transporte Vila Leopoldina - valor x"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#69C300"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:text="Aceitar"
+        app:iconTint="#DAB130"
+        app:rippleColor="#FFF31B"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
